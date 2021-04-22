@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <!-- resetting -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body>
+    <h1 id="main-head">Our custom blog site (Linking Tech Platform )</h1>
+    <div class="container">
+        <!-- title section  -->
+        <section class="title">
+            <div class="head">
+                <h1>Blog Site</h1>
+            </div>
+        </section>
+        <!-- posts section  -->
+        <section class="posts">
+            <!-- default post 1 -->
+            <div class="post">
+                <!-- post head  -->
+                <div class="post-head">
+                    <div class="post-title">Augur Killed by Memor</div>
+                    <div class="post-info">Written By Mehedi Hasan. <span id="post-date">On 2021-04-18</span> </div>
+                </div>
+                <!-- end of post head  -->
+                <div class="post-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius amet odio ipsam quia odit,
+                        recusandae id ratione illum reiciendis dignissimos minus, nulla praesentium in? Aut, similique
+                        quam. Eaque sit pariatur itaque expedita soluta, ab rerum. Quaerat necessitatibus commodi quam
+                        reprehenderit explicabo sequi asperiores tempore ipsum dolores tempora quia quidem fugiat
+                        reiciendis eligendi repellat dolore assumenda eos blanditiis, aliquam voluptatibus dolorum
+                        expedita. Vero, cumque eum quam fugiat, beatae unde eaque harum similique error excepturi
+                        exercitationem odio rerum consequatur voluptatem soluta eos cum sapiente quidem sit. Velit
+                        numquam excepturi dolores amet impedit earum iusto quod, obcaecati non officia maiores totam
+                        doloremque. Libero vitae accusamus quaerat consequuntur dolor at hic, nam corrupti officiis est,
+                        quisquam, sunt commodi. Vel animi modi hic! Neque itaque sint repellendus beatae nostrum,
+                        aspernatur quibusdam incidunt a tempora quas quidem eius natus aperiam, quia perspiciatis
+                        voluptates facilis harum unde ullam sit optio, esse error. Cumque quasi debitis magnam porro at
+                        beatae itaque eveniet asperiores, recusandae maxime vero voluptatum optio! A veritatis iure aut
+
+                    </p>
+                </div>
+            </div>
+            <!-- end of post 1 -->
+             <!-- default post 2 -->
+             <div class="post">
+                <!-- post head  -->
+                <div class="post-head">
+                    <div class="post-title">My Pat dog</div>
+                    <div class="post-info">Written by Jhon son. <span id="post-date">On 2021-04-18</span> </div>
+                </div>
+                <!-- end of post head  -->
+                <div class="post-body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius amet odio ipsam quia odit,
+                        recusandae id ratione illum reiciendis dignissimos minus, nulla praesentium in? Aut, similique
+                        quam. Eaque sit pariatur itaque expedita soluta, ab rerum. Quaerat necessitatibus commodi quam
+                        reprehenderit explicabo sequi asperiores tempore ipsum dolores tempora quia quidem fugiat
+                        reiciendis eligendi repellat dolore assumenda eos blanditiis, aliquam voluptatibus dolorum
+                        expedita. Vero, cumque eum quam fugiat, beatae unde eaque harum similique error excepturi
+                        exercitationem odio rerum consequatur voluptatem soluta eos cum sapiente quidem sit. Velit
+                        numquam excepturi dolores amet impedit earum iusto quod, obcaecati non officia maiores totam
+                        doloremque. Libero vitae accusamus quaerat consequuntur dolor at hic, nam corrupti officiis est,
+                        quisquam, sunt commodi. Vel animi modi hic! Neque itaque sint repellendus beatae nostrum,
+                        aspernatur quibusdam incidunt a tempora quas quidem eius natus aperiam, quia perspiciatis
+                        voluptates facilis harum unde ullam sit optio, esse error. Cumque quasi debitis magnam porro at
+                        beatae itaque eveniet asperiores, recusandae maxime vero voluptatum optio! A veritatis iure aut
+
+                    </p>
+                </div>
+            </div>
+            <!-- end of post 2 -->
+        </section>
+        <!-- new post section  -->
+        <section class="new_post">
+            <!-- create  post form  -->
+            <h1>Create a new Post</h1>
+            <div class="new_post_area">
+                <form method="POST" name="form1">
+                    <input type="text" id="id_post_title" class="form-control input" required placeholder="Post Title">
+                    <input type="text" id="id_author" class="form-control input" placeholder="Author name" required>
+                    <label for="id_post_date">
+                        Select Post Date
+                    </label>
+                    <input type="date" id="id_post_date" name="post_date" class="form-control" required>
+                    <!-- select options  -->
+                    <select name="post_type" id="id_post_type" class="form-control">
+                        <option value="custom">Custom</option>
+                        <option value="lorem">Lorem</option>
+                    </select>
+                    <!-- reading lorem size  -->
+                    <input type="text" class="form-control input" placeholder="Lorem Size" id="id_lorem_size">
+                    <!-- reading custom post  -->
+                    <textarea name="post_content" id="id_post_content" cols="10" rows="5" class="form-area"></textarea>
+                    <!-- buttom group area  -->
+                    <div class="form-control btn-group">
+                        <button class="post-btn">Post</button>
+                    </div>
+                </form>
+            </div>
+            <!-- end of new_post_area  -->
+        </section>
+    </div>
+</body>
+<!-- jQuery-3 -->
+<script src="js/jQuery-3.6.0.js"></script>
+<!-- custom js  -->
+<script src="js/app.js"></script>
+
+</html>
